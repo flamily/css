@@ -3,14 +3,14 @@ Build a Random Forest, Today!
 
 Hello! This is a simple python command line thing to build/update the random forest model.
 
-### Commands
+### 2 Commands
 - update-d: updates the default random forest model with the prefined settings
 - new: creates a new random forest model
 
-#### update-d
+#### 2.1 update-d
 
 
-#### new
+#### 2.2 new
 - runs build_forest_proto(model_path)
   - model_path: .joblib file (e.g. model.joblib)
  - Prompts:
@@ -24,7 +24,7 @@ Hello! This is a simple python command line thing to build/update the random for
 
 
 
-#### Default Random Forest Classifier Settings:
+### 3 Default Random Forest Classifier Settings:
 - Partition Settings:
   - Split Size: 0.5 (50%)
 - Classifier Settings:
