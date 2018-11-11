@@ -15,12 +15,12 @@ Hello! This is a simple python command line thing to build/update the random for
   - model_path: .joblib file (e.g. model.joblib)
  - Prompts:
   - Partition Size (float): 0.25 - 0.75
-  - Random Seed (partition) (int): 1 - 999999
-  - Number of trees: 1 - max(int) <- don't go max int though because it'll probably be super duper slow
+  - Random Seed (partition) (int): 1 - max(int)
+  - Number of trees: 1 - max(int) <- don't go max int because it'll be super slow and create a giant file (100,000 trees ~= 2.5gb)
   - Criteria (gini or entropy): 
-    - gini: 
-    - entropy: 
-  - Random Seed (classifier): 1 - 999999
+    - gini: info gain good for continuous data
+    - entropy: info gain good for attributes which occur in classes
+  - Random Seed (classifier): 1 - max(int)
 
 
 
